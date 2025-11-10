@@ -1,4 +1,6 @@
 package org.example.factory;
 
-public class Meal {
+public interface Meal {
+    void prepare();
+    String getDescription();
 }
